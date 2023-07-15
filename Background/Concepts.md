@@ -19,6 +19,75 @@ Water Vapour(H2O) near full absoption in spectrum so does not matter if we add a
 
 Vibrational modes exist in all molecules, if these modes change the dipole moment of the molecule, they can absorb radiation in the infra-red which was emitted by earth's surface. They re-transmit radiation in random direction, including back to the Earth's surface, which drives further to increase the Earth's temperature and increase the overall energy input to the Earth's surface, leading to an imbalance between incoming and outgoing energy.
 
+## heat pump
+the concept, operation, and performance of a heat pump as used for domestic heating, discussing both ground source and air source heat pumps. 
+[21/22][6']  [19/20][6']
+- concept: Heat is pumped from cold to hot, not extracted from a heat source (unlike geothermal)
+- operation: Pump Cycle (expansion and condensation of water)
+- performance: Measured by COP (Coefficient of Performance).
+![heat pump](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/heat%20hump.jpeg)
+Works best when temperature difference is small. Energy dissipation slow at low temperature so need well insulated house kept at constant temperature
+- Air Source (ASHP) will work poorly in freezing temperature: currently not sufficient as stand alone
+- Ground Source Heat Pump (GSHP) needs to be implemented in new build homes.
+
+## MPPT
+Describe the technique known as Maximum Power Point Tracking (MPPT). 
+[21/22][4']
+- Direct: 1.Perturb and Observe Method 2.Incremental Conduction Method
+- Indirect: 1.Fixed Voltage Method 2.Fractional OPen Circuit Voltage Method
+
+## H-SAT tracking system
+Describe the key factors to consider when optimising the design of a H-SAT tracking system to increase bifacial gain. 
+[21/22][6']
+Albedo, pitch, tile angle, clearance height
+
+## IV Curve
+Define Voc, Isc, Pmax, FF, μPV
+- Voc: Open Circuit Voltage. the maximum voltage from a solar panel and occurs when the current is set at zero
+- Isc: Short Circuit Current. the maximum current from a solar panel and occurs when the potential difference
+across the device is zero
+- Pmax: With Vmax and Imax. A solar panel operating at maximum capacity.
+- FF: Fill factor. A ratio of the maximum obtainable power to
+the product of short circuit current and open circuit
+voltage
+
+Illustrate Voc, Isc and Pmax on a solar cell IV Curve.
+![MPPT](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/MPPT.jpeg)
+
+## AGW(Anthropogenic Global Warming)
+the mechanism by which burning of fossil fuels leads to anthropogenic global warming. 
+[19/20][12'] [18/19][12'] [17/18][12'] [16/17][7']
+Evidences of AGW are Co2 emission, temperature increase and feedback.
+When fossil fuels are burned, the greenhouse gases such as CO2, H2O will accumulate in the Earth's atmosphere. The gases will absorb the IR emitted from the earth's surface and reemit to the earth's surface, which leading to the imbalance between incoming and outgoing energy of the earth and increasing temperature. The increased temperature will melt the glaciers and rise sea levels, which reduces the Earth's reflective capacity and increases the absorbtion that creates vicious cycle.
+
+## Carbon
+Explain the role of the carbon electrode in a Li-ion battery. 
+[19/20][3'] [17/18][3']
+The stable carbon electrode works as a barrier electrode for storing and releasing li-ions during the charging and discharging processes, which allows for efficient electrons transfer.
+
+## AM
+the definition of AM 0 and AM 1.5 radiation 
+[19/20][3'] [18/19][3'] [17/18][3']
+AM(Air Mass)
+- AM 0 represents the solar spectrum then the sunlight directly perpendicularly reaches to the Earth's surface without attenuation through the atmosphere.
+- AM 1.5 represents the solar radiation spectrum after passing through an average atmosphere with a path length of 1.5 air masses.
+
+## tilt angle
+If a solar array is to be mounted on a roof located at a latitude of 35 degrees. What angle would you tilt the array to obtain the best output averaged over the whole year? 
+[19/20][3']
+Assume in northern hemispere
+35+15=50(winter) <br>
+35-15=20(summer)
+
+## band gap
+Explain the difference between direct and indirect band gap semiconductors in terms of absorption and emission of light, and give an example of one semiconductor of each type of band gap.
+name two semiconductors possessing each type of band gap. 
+[19/20][6'] [18/19][6'] [17/18][6'] [16/17][3'] [14/15][5']
+- direct band gap: Transitions of electrons from VB to CB involve a change in energy only.
+e.g. GaAs
+- indirect band gap: Transitions of electrons from VB to CB involve a change in energy and momentum.
+e.g. GaP
+
 # Calculation and Draw
 ## Fermi energy level
 - Calculate the Fermi energy level at room temperature(300K) for N-type Silicon doped to a concentration of Nd=10^15 cm-3, with respect to the conduction band energy level. <br>
@@ -105,6 +174,15 @@ ii. The luminous efficacy <br>
 - Na: acceptor concentration
 
 # Words
+- perpendicular 垂直的
+- attenuation 衰减
+- irradiance 辐照度
+- clearance height 净空高度
+- pitch 沥青
+- albedo 反照率
+- perturb 扰动
+- stand alone 单独应用
+- insulated 绝缘的
 - efficacy 功效
 - luminous 发光的
 - perceive 感知
