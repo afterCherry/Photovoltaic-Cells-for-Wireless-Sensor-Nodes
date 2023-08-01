@@ -60,6 +60,85 @@ the mechanism by which burning of fossil fuels leads to anthropogenic global war
 Evidences of AGW are Co2 emission, temperature increase and feedback.
 When fossil fuels are burned, the greenhouse gases such as CO2, H2O will accumulate in the Earth's atmosphere. The gases will absorb the IR emitted from the earth's surface and reemit to the earth's surface, which leading to the imbalance between incoming and outgoing energy of the earth and increasing temperature. The increased temperature will melt the glaciers and rise sea levels, which reduces the Earth's reflective capacity and increases the absorbtion that creates vicious cycle.
 
+## PERC
+Explain, with the help of a sketch, how the structure of the back contact of a PERC solar cell differs from that of an Al-BSF solar cell and give two reasons why it enables higher power conversion efficiencies. 
+[19/20][5']
+Structure Extra steps vs. BSF cell
+1. Rear passivation with SiOx/AlOx and SiNy. 后端屏障层
+2. Laser contact opening at rear. 激光
+
+why it enables higher power conversion efficiencies:
+- Less recombination at rear contact (most of the rear is covered with a passivating oxide).
+- A higher reflectance from the back surface dielectric stack compared to an Al-Si interface.
+
+【题目解读】
+- Passivated Emitter and Rear Cell
+- 在太阳能电池中，前端是光吸收层（活性区域），负责将光能转化为电能；而背面则用于电池的电子通道和电流收集。
+- 屏障层:
+  - 在太阳能电池的背面形成一个钝化层，可以减少电子和空穴的表面复合。电子和空穴的复合是一个能量损失的过程，可以降低太阳能电池的效率。通过背面的钝化氧化物层，可以有效减少这种复合现象，从而提高电池的效率。
+  - 还具有一定的反射特性，可以将未被吸收的光线反射回到活性区域，增加光的吸收率，提高电池的光电转换效率。
+
+## feedback
+Explain the concept of feedback, and give two examples of positive and negative global warming feedback. <br>
+[18/19][5'] [17/18][5']
+Feedback: The response of the earth to global warming <br>
+- g=1 No feedback <br>
+- g<1 Negative feedback: earth regulates itself: “Gaia” <br>
+  - True long term: Might not include human survival though <br>
+  - Short term: <br>
+    - Additional cloud raises albedo <br>
+    - Ocean will continue absorption of CO2 from atmosphere <br>
+• g>1 Positive feedback: <br>
+  - Increased water concentration in atmosphere leads to further green house effect <br>
+  - Ice cover decreases which decrease albedo <br>
+  - Tundras melt releasing CH4 (strong greenhouse gas) <br>
+  - CO2 absorption of oceans stops or reverses strongly increasing CO2 ppm <br>
+
+## radiative forcing
+Explain the concept of radiative forcing. <br>
+[18/19][5']
+Power of Radiation [W/m2] not escaping earth due to absorption by green house gasses
+If radiation already absorbed at that wavelength there is less additional forcing; depends on:<br>
+• Position of vibrational levels <br>
+• Amount of the greenhouse gas in the air <br>
+• Amount of other greenhouse gasses at same wavelength <br>
+• Details of the vibrational modes (shape around wavelength) <br>
+【题目解读】<br>
+Radiative forcing用来衡量温室气体对地球辐射能量的影响。当大气中的温室气体增加时，它们会吸收更多的辐射能量，导致地球表面的辐射能量不平衡，使得更多的能量被保留在地球上，从而引起温室效应和全球变暖。
+
+## active region of a solar cell
+two advantages and two disadvantages of using silicon as the material for the active region of a solar cell. <br>
+[19/20][4']
+To be a suitable material from which to make the active layer of solar
+cells, a semiconductor should ideally have the following properties:<br>
+– Band gap should be 1-1.6 eV. As for silicon, the band gap is 1.1eV. <br>
+– Need to be able to dope n and p type (to form a good junction) <br>
+– Low defect densities (long minority carrier diffusion lengths). 低缺陷密度（长少数载流子扩散长度）： 缺陷密度影响材料的载流子（电子和空穴）传输和寿命。<br>
+– Abundant on Earth<br>
+X Should absorb light efficiently. （迷惑）
+
+shortcoming:<br>
+1. Limited spectral response range: The spectral response range of silicon solar cells is mainly concentrated in the visible light region, with low absorption capacity for infrared and ultraviolet light, and cannot fully utilize light energy other than visible light.<br>
+2. Thermalization loss: When a photon is absorbed by a silicon semiconductor, it generates an electron-hole pair. Some of these carriers may have too much energy that cannot be converted directly into electricity, but instead into heat through a process called thermalization. This loss of thermal energy reduces the overall efficiency of the solar cell.<br>
+【题目解读】"Active region of a solar cell" 是指太阳能电池的活性区域，也称为光吸收层或光电转换层，其主要功能是将光能转化为电能。这个区域的材料选择至关重要，因为它直接影响太阳能电池的光电转换效率。
+
+## direct and indirect band gap semiconductors
+Explain the difference between direct and indirect band gap semiconductors in terms of absorption and emission of light, and give an example of one semiconductor of each type of band gap.
+name two semiconductors possessing each type of band gap. 
+[19/20][6'] [18/19][6'] [17/18][6'] [16/17][3'] [14/15][5']
+- Direct bandgap
+e.g. GaAs, InP, InAs, CdTe
+Transitions of electrons from VB(valence band) to CB(conduction band) involve an energy change only. <br>
+absorption of light: When the energy of the photon matches or exceeds the energy of the band gap, the electron can directly jump from the VB to CB.<br>
+emission of light: When an electron returns from the conduction band to the valence band, it releases excess energy as a photon. Due to the nature of direct transitions, electrons do not experience large momentum changes when emitting photons.<br>
+
+- Indirect bandgap
+e.g. Si, Ge, GaP, AlP
+Transitions of electrons from VB to CB involve a change in energy and momentum. <br>
+absorption of light: Although the energy of the photon may be higher than the bandgap energy, the electron cannot jump directly from the valence band to the conduction band due to the momentum mismatch.<br>
+emission of light: When electrons return from the conduction band to the valence band, due to the mismatch of momentum, additional scattering and momentum changes will occur, making the emission efficiency of photons lower.
+
+
 ## Carbon
 Explain the role of the carbon electrode in a Li-ion battery. 
 [19/20][3'] [17/18][3']
