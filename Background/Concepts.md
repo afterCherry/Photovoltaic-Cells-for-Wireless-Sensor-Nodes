@@ -60,6 +60,31 @@ the mechanism by which burning of fossil fuels leads to anthropogenic global war
 Evidences of AGW are Co2 emission, temperature increase and feedback.
 When fossil fuels are burned, the greenhouse gases such as CO2, H2O will accumulate in the Earth's atmosphere. The gases will absorb the IR emitted from the earth's surface and reemit to the earth's surface, which leading to the imbalance between incoming and outgoing energy of the earth and increasing temperature. The increased temperature will melt the glaciers and rise sea levels, which reduces the Earth's reflective capacity and increases the absorbtion that creates vicious cycle.
 
+## Energy Storage
+Name the two key technical performance indicators of energy storage devices and draw a diagram in which at least 6 examples of energy storage devices are placed relative to these indicators ("Ragone chart"). <br>
+[18/19][6'] [14/15][8'] <br>
+
+回答前两个就行
+Energy Storage considerations
+- Energy U [J, Wh], Energy density u [Wh/kg, Wh/cm3]
+- Power P [Js-1, W], Power density p [W/kg, W/cm3]
+- Conversion Efficiency
+- Active time [s,h,days]
+- Stand by time [s, h, days]
+- Cost [$], [Wh/$]
+- Environmental considerations
+- Cyclability
+![Ragone plot](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/Ragone%20plot.png)
+
+## spectral response
+Define what the spectral response of a silicon solar cell is under glass and provide the equation relating spectral response to quantum efficiency. <br>
+[18/19][6']
+The ability of the battery to convert light energy of different wavelengths into electrical energy when covered with a glass layer. <br>
+
+![SR QE](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/SR%20QE.png)<br>
+
+![SR](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/SR.png) <br>
+
 ## PERC
 Explain, with the help of a sketch, how the structure of the back contact of a PERC solar cell differs from that of an Al-BSF solar cell and give two reasons why it enables higher power conversion efficiencies. 
 [19/20][5']
@@ -78,6 +103,82 @@ why it enables higher power conversion efficiencies:
   - 在太阳能电池的背面形成一个钝化层，可以减少电子和空穴的表面复合。电子和空穴的复合是一个能量损失的过程，可以降低太阳能电池的效率。通过背面的钝化氧化物层，可以有效减少这种复合现象，从而提高电池的效率。
   - 还具有一定的反射特性，可以将未被吸收的光线反射回到活性区域，增加光的吸收率，提高电池的光电转换效率。
 
+## MPPT
+Describe in detail the technique known as MaximumPower Point Tracking (MPPT). Include:
+(i) a block diagram of a typical MPPT circuit;
+(ii) techniques for indirect and direct MPPT;
+(iii) the circuit diagram and the equation for the voltage ratio of the following converters: 
+1.basic boost converter;
+2.buck converter;
+3.buck boost converter;
+[21/22][8'] [16/17][16']
+(i) The basic principle of Maximum Power Point Tracking is to ensure that the PV system operates in its region of maximum power output from the PV cells . This means modulating the load from the PV Array to optimize the voltage and current. To achieve this, we need to monitor the input voltage and current of the PV array and ensure that the current drawn through the load is then matched with the correct current from the PV array using DC-DC converters <br>
+![circuit](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/circuit.png) <br>
+(ii) Indirect methods estimate the MPP by monitoring and analyzing the system parameters such as voltage, current and power. They are simple to implement and have a fast response. <br> 
+a. Fixed Voltage Method <br>
+b. Fractional Open Circuit Volatge Method <br>
+Limitations: <br>
+- Model suited for places with low variation of irradiance
+- Not accurate
+- Empirical setup
+
+Direct methods directly measure the output power of the cell and adjust the operating point accordingly. <br>
+a. Perturb and Observe Method: limited in rapidly changing illumination <br>
+b. Incremental Conduction Method: compare the incremental conductance (dI/dV) to the array conductance (I/V), has rapid response time to illumination variation <br>
+
+## degenerate doping
+Explain what is meant by degenerate doped N and Ptype materials. 
+[16/17][5'] <br>
+highly conductive
+- "N-type" materials are those that are doped with impurities, usually impurities that donate extra electrons, such as phosphorus or arsenic, and are highly conductive.
+- "P-type" material is one that is doped with an impurity, usually an impurity that provides electron deficiencies (holes), such as boron or aluminum.
+
+![degenerate doping](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/degenerate%20doping.png) <br>
+
+
+## PV cell equation
+Write down the ideal PV cell equation, stating the meaning of each variable used in the equation. <br>
+[21/22][3'] [17/18][3'] [16/17][3'] [15/16][3'] <br>
+![PV cell equation](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pv%20cell%20ideal%20equation.png) <br>
+
+## BSFionised
+Calculate the potential barrier height in electron volts if the percentage of Al acceptors that are ionised is 65%. 
+[21/22][3'] [19/20][2']
+![bsf1](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSF1.png) <br>
+![ionised](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/ionised.png) <br>
+
+![bsf](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSF.png) <br>
+
+ 
+## Albedo
+Explain the concept of albedo.
+[17/18][6']
+Albedo is the fraction of incident sunlight that a surface reflects.
+
+## minority carrier concentration
+- electron concentration in the conduction band 𝑛 
+- hole concentration in the valence band 𝑝
+![minority carrier concentration](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/minority%20carriers.png) <br>
+
+Explain why the law of mass action is true for extrinsic semiconductors. <br>
+[21/22][4'] <br>
+
+In extrinsic semiconductors, intentionally added dopant atoms significantly increase the concentration of majority carriers (electrons in N-type semiconductors or holes in P-type semiconductors), resulting in a much higher concentration of majority carriers (n or p) compared to the concentration of minority carriers (p or n). <br>
+
+At thermal equilibrium, thermal excitation in the extrinsic semiconductor leads to the generation of electron-hole pairs. The rate of generation of these electron-hole pairs is equal to the rate of recombination of electron-hole pairs, meaning that the number of electron-hole pairs generated in a unit time is equal to the number of electron-hole pairs that recombine in the same unit time. <br>
+
+在外延半导体中，有意添加的掺杂原子显著增加了多数载流子的数量（N型半导体中的电子或P型半导体中的空穴），因此多数载流子的浓度（n或p）远远超过少数载流子（p或n）的浓度。<br>
+在热平衡状态下，外延半导体中的电子和空穴之间会发生热激发，从而产生电子-空穴对。这些电子-空穴对的生成速率等于电子-空穴对的复合速率，即在单位时间内产生的电子-空穴对数量等于在单位时间内复合的电子-空穴对数量。<br>
+
+
+## potential barrier height
+A silicon wafer from the batch in 2(b) is made into an aluminium back surface field (Al-BSF) solar cell with a p+ region at the rear of the cell of acceptor concentration 
+Na+ = 2.7×1018 cm-3. 
+Show that the potential barrier height, Δ𝐸𝐶, created in the conduction band across the p+/p junction, assuming all Al dopants are ionised, is given by: 
+![delta Ec](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/delta%20Ec.png) <br>
+[21/22][7']
+
+
 ## feedback
 Explain the concept of feedback, and give two examples of positive and negative global warming feedback. <br>
 [18/19][5'] [17/18][5']
@@ -88,7 +189,7 @@ Feedback: The response of the earth to global warming <br>
   - Short term: <br>
     - Additional cloud raises albedo <br>
     - Ocean will continue absorption of CO2 from atmosphere <br>
-• g>1 Positive feedback: <br>
+- g>1 Positive feedback: <br>
   - Increased water concentration in atmosphere leads to further green house effect <br>
   - Ice cover decreases which decrease albedo <br>
   - Tundras melt releasing CH4 (strong greenhouse gas) <br>
@@ -156,7 +257,19 @@ If a solar array is to be mounted on a roof located at a latitude of 35 degrees.
 [19/20][3']
 Assume in northern hemispere
 35+15=50(winter) <br>
-35-15=20(summer)
+35-15=20(summer) <br>
+
+A solar array is to be mounted on a roof located at a latitude of 50 degrees. Calculate the tilt angle of the array that would give the best output during the summer solstice. <br>
+[21/22][3'] <br>
+50+15=65(winter) <br>
+50-15=35(summer) <br>
+
+## masses of electrons and holes
+In a piece of intrinsic silicon, the effective masses of electrons and holes are approximately 1.08𝑚𝑒 and 0.6𝑚𝑒, respectively, where 𝑚𝑒 is electron rest mass. Calculate the energy difference between the intrinsic Fermi level, 𝐸𝑖, and the centre of the bandgap. 
+[20/21][7']
+![mass Nc Nv](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/mass%20Nc%20Nv.png) <br>
+![intrinsic band level](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/fermi%20level%20intrinsis%20semiconductors.png) <br>
+
 
 ## band gap
 Explain the difference between direct and indirect band gap semiconductors in terms of absorption and emission of light, and give an example of one semiconductor of each type of band gap.
@@ -167,11 +280,78 @@ e.g. GaAs
 - indirect band gap: Transitions of electrons from VB to CB involve a change in energy and momentum.
 e.g. GaP
 
+## offshore wind
+the requirements to allow offshore wind to become the dominant electricity source <br>
+[21/22][6'] [20/21][6'] <br>
+- Resource Assessment: Evaluate the wind speed direction and other dimatic factors at potential offshore wind farmsites. Adequate wind resources are necessary to ensure a consistent and reliable electricity generation.
+- Cost competitiveness
+- Infrastructure Development: It includes the development of off-shore wind farms, the construction of transmission lines to bring the electricity ashore, and the establishment of grid connections to distribute the electricity to consumers.
+- Environmental considerations: address potential effects on marine ecosystems, migratory bird patterns and other wildlife.Collaboration with environmental organizations and stakeholders can help ensure sustainable development and minimize ecological disruptions.
+
+- 资源评估：评估潜在离岸风电场的风速方向和其他气候因素。充足的风资源是确保稳定可靠的电力发电的必要条件。
+- 成本竞争力：评估离岸风电发电的成本竞争力，包括建设、运营和维护成本。
+- 基础设施发展：包括离岸风电场的建设，建设输电线路将电力输送到岸边，以及建立电网连接将电力分配给消费者。
+- 环境考虑：考虑潜在的对海洋生态系统、候鸟迁徙模式和其他野生动物的影响。与环保组织和利益相关者合作，有助于确保可持续发展，最大限度地减少生态破坏。
+
+## band diagram
+Draw to scale a Si band diagram with the energy levels and the valence band energy level.
+![extrinsic energy level](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/fermi%20level%20extrinsic%20semiconductors.png) <br>
+
+
+## H2 fuel cell powered vehicle and an H2 combustion engine
+the similarities and differences between an H2 fuel cell powered vehicle and an H2 combustion engine in terms of chemical process, energy efficiency and CO2 emission. <br>
+[21/22][5'] <br>
+燃料电池 vs. 内燃机 <br>
+- chemical process (different)
+H2 fuel cell powered vehicle: The hydrogen gas is fed to the anode, oxygen from air is supplied to the cathode. At anode, hydrogen molecules are split into protons and electrons. The protons move through the electrolyte, while the electrons create an electric current, which can power an electric motor. At the cathode, the protons H+ and electrons e- combine with O2 to produce H2O as the only product.<br>
+2H2 —> 4H+ + 4e- <br>
+O2+4e —> 2O2- <br>
+4H+ + 2O2- —> 2H2O <br>
+
+H2 combustion engine: 2H2 + O2 —> 2H2O. H2 is burned in an internal combustion engine, similar to a conventional gasoline engine. The H2 is mixed with air, compresses, and ignited by a spark plug. The byproduct of H2 combustion is water vapor H2O.
+
+- energy efficiency (different)
+H2 fuel cell powered vehicle: 化学能 电能 动能 <br>
+Conversion from chemical energy to electrical energy to motion. it is more energy-efficient, the efficiency is typically around 60%.
+
+H2 combustion engine: 化学能 热能 动能/电能 <br>
+Conversion from chemical energy to heat to motion or electricity. It is inefficient, heat engine limited by carnot cycle: <br>
+![inefficient](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/inefficient.jpeg) <br>
+The efficiency is typically from 25% - 45%.
+
+
+- CO2 emission (similar)
+H2 fuel cell powered vehicle: produce O direct CO2 emissions during operation. The only byproduct is H2O and overall CO2 emissions depend on the source of H2(Hydrogen) production.
+
+
+H2 combustion engine: also produce O direct CO2 emissions during operation. However, if the H2 is derived from fossil fuels, such as natural gas, there maybe CO2 emissions associated with the production process.
+
+- chemical process (different)
+H2燃料电池动力车：氢气被送入阳极，氧气从空气中供应到阴极。在阳极，氢分子被分解成质子和电子。质子穿过电解质，而电子产生电流，可以驱动电动机。在阴极，质子H+和电子e-与氧气O2结合，产生唯一的产物H2O。
+
+2H2 —> 4H+ + 4e-
+O2+4e —> 2O2-
+4H+ + 2O2- —> 2H2O
+
+H2燃烧发动机：2H2 + O2 —> 2H2O。氢气在内燃机中燃烧，类似于传统的汽油发动机。氢气与空气混合，压缩，并通过火花塞点燃。氢燃烧的副产物是水蒸气H2O。
+
+- energy efficiency (different)
+H2燃料电池动力车：化学能 -> 电能 -> 动能
+将化学能转换为电能，再转换为运动能量。它更加高效，其效率通常约为60%。
+
+H2燃烧发动机：化学能 -> 热能 -> 动能/电能
+将化学能转换为热能，再转换为运动能量或电能。它效率低下，受卡诺循环限制的热能引擎。
+
+- CO2 emission (similar)
+H2燃料电池动力车：在运行过程中不产生直接的CO2排放。唯一的副产品是H2O，整体CO2排放量取决于H2（氢气）的生产来源。
+
+H2燃烧发动机：在运行过程中也不产生直接的CO2排放。然而，如果H2来自化石燃料，比如天然气，可能会与生产过程相关的CO2排放。
+
 # Calculation and Draw
 ## Fermi energy level
 - Calculate the Fermi energy level at room temperature(300K) for N-type Silicon doped to a concentration of Nd=10^15 cm-3, with respect to the conduction band energy level. <br>
 [3'] <br>
-with respect to the conduction band energy level the intrinsic Fermi energy level. <br>
+with respect to the intrinsic Fermi energy level. [15/16][3'] <br>
 [2'] <br>
 Draw an energy level diagram illustrating previous 2 answers in relation
 to valence and conduction band energy levels.<br>
@@ -240,6 +420,28 @@ ii. The luminous efficacy <br>
 ![QE](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/QE.jpeg)
 
 
+- Calculate the difference in energy, in electron volts, between the Fermi level and the top of the valence band at room temperature (300K), stating any assumptions you make and illustrating your answer with an energy level diagram. 
+[21/22][7'] [19/20][3']
+![fermi level extrinsic semiconductor](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/fermi%20level%20extrinsic%20semiconductors.png) <br>
+
+![fermi level intrinsic semiconductor](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/fermi%20level%20intrinsis%20semiconductors.png) <br>
+
+- Calculate the mass of water that is required for pumped hydropower in a 80m high mountain to have a total stored energy of 10GWh. <br>
+[17/18][6'] <br>
+E=mgh <br>
+1 GWh = 1 x 10^9 Wh = 1 x 10^9 x 3600 x 10^3 J。 <br>
+g=10m/s2
+
+- Estimate the weight of a typical real Li-ion battery array to have a total stored energy of 10GWh. <br>
+[17/18][6'] <br>
+E=Energy density*m <br>
+Energy density = 100Wh/kg <br>
+10 GWh =10*10^9Wh=100Wh/kg *m <br>
+
+- Calculate the maximum theoretical energy density for a solid state parallel plate capacitor with dielectric constant er=5, and dielectricbreakdown strength Ebd=140V/μm. <br>
+[16/17][8'] [15/16][8'] <br>
+![capacitor energy density](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/capacitor%20energy%20density.png) <br>
+
 
 
 # Symbol
@@ -251,8 +453,16 @@ ii. The luminous efficacy <br>
 - np+: n-type p+ barrier concentration
 - Nd: donor concentration
 - Na: acceptor concentration
+- Ec: energy at the bottum of conduction band
+- Ev: energy at the top of valence band
 
 # Words
+- 掺杂半导体是有意地掺入杂质原子以增加载流子浓度的半导体材料。
+- dopant 掺杂剂
+- n型 More donors 半导体是指以磷（P）、砷（As）或锑（Sb）作为杂质进行掺杂的本征半导体；P型 More acceptors半导体比如硼、铟、镓等的半导体就是
+- phosphorus 磷 - 磷是受子：磷是五价元素，具有五个价电子，当掺入到四价半导体材料中（如硅）时，其中四个价电子能够与半导体的共价键形成四个共价键，而第五个电子处于自由状态。这个自由电子非常容易被外部电场激发，从而导致在半导体中出现额外的电子，增加了载流子浓度。因此，磷在半导体中扮演了受子的角色，增加了材料的n型杂质浓度。<br>
+boron 硼 - 硼是施主：硼是三价元素，只有三个价电子。当掺入到四价半导体材料中时，硼会与半导体的共价键形成三个共价键，但会产生一个空穴缺陷。这个空穴缺陷可以看作是一个正电荷，可以吸引附近的电子，形成一个额外的正电荷。这增加了半导体中空穴的浓度，因此硼在半导体中扮演了施主的角色，增加了材料的p型杂质浓度。
+- extrinsic semiconductors 非本征半导体
 - perpendicular 垂直的
 - attenuation 衰减
 - irradiance 辐照度
@@ -276,6 +486,9 @@ ii. The luminous efficacy <br>
 - prescribe 规定
 
 # Common Sense
+- 本征费米能级（𝐸𝑖）是指在纯净半导体中（没有有意添加杂质的情况下），导带中的电子浓度和价带中的空穴浓度相等的能量水平。
+- 能隙中心是导带最小值（CBM）和价带最大值（VBM）之间的中点。
+- 能带又可以分为价带和导带。带隙能量（Eg）是指价带和导带之间的能量差，即电子在价带中的最高能级与导带中的最低能级之间的能量间隔。
 - When holes and electrons meet and recombine, their energy is lost as heat instead of being converted into electricity.
 - Doping impurity atoms are typically classified into two categories: donors and acceptors.
   - In N-type silicon, the donor is the doping impurities. The additional electrons from the donor atoms easily dissociate and become free electrons in the conduction band, thereby increasing the conductivity of N-type silicon. On the other hand, acceptor atoms are impurities that can capture free electrons and can be considered as positively charged carriers, thereby increasing the conductivity of the doped region.
