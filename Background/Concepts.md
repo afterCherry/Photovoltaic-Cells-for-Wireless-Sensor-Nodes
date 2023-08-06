@@ -9,7 +9,7 @@
 The amount and intensity of radiation[W/m2] a body sends out is solely determined by its surface temperature.
 According to the laws of defined formula, an object at a certain temperature emits electromagnetic radiation across a range of wavelength. To be specific, warmer objects emit more radiation at shorter wavelengths.
 - equilibrium temperature of the earth  <br>
-Equilibrium temperature happens between incoming solar radiation and outgoing earth radiation. Incoming Energy in Visible/U;traViolet(UV), Outgoing Energy in Infra-Red(IR). Incoming absorbed radiation on Planet depends on distance to the sun and radius of the planet, outgoing radiation of the planet only depends on its temperature.
+Equilibrium temperature happens between incoming solar radiation and outgoing earth radiation. Incoming Energy in Visible/UltraViolet(UV), Outgoing Energy in Infra-Red(IR). Incoming absorbed radiation on Planet depends on distance to the sun and radius of the planet, outgoing radiation of the planet only depends on its temperature.
 Planet Earch will heat up until equilibrium is achieved. The resulting equation for equilibrium temperature does not depend on the size of planet.
 
 ### caused by Gas, explain examples and principles. 
@@ -22,13 +22,33 @@ Vibrational modes exist in all molecules, if these modes change the dipole momen
 ## heat pump
 the concept, operation, and performance of a heat pump as used for domestic heating, discussing both ground source and air source heat pumps. 
 [21/22][6']  [19/20][6']
-- concept: Heat is pumped from cold to hot, not extracted from a heat source (unlike geothermal)
+- concept: Heat is pumped from cold to hot by utilizing the principles of thermodynamics, not extracted from a heat source (unlike geothermal)
 - operation: Pump Cycle (expansion and condensation of water)
-- performance: Measured by COP (Coefficient of Performance).
+1. Heat extraction
+Air Source (ASHP) will work poorly in freezing temperature: currently not sufficient as stand alone. It pulls in air from the surrounding environment using a fan, then the fluid absorbs heat from the air through the evaporator. <br>
+Ground Source Heat Pump (GSHP) needs to be implemented in new build homes. A GSHP extracts heat from the ground using a network of buried pipes, called ground loops, filled with a heat transfer fluid.
+Both often relevant to the water mixed with antifreeze.<br>
+- performance: Measured by COP (Coefficient of Performance). <br>
+2. Heat transfer <br>
+The fluid passes through the compressor. The compressor increases the fluid's temperature and pressure.<br>
+3. Heat distribution: The heated fluid passes through the condenser, releasing the heat to the indoor air or a water-based heating system.<br>
+- performance: coefficient of performance
 ![heat pump](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/heat%20hump.jpeg)
-Works best when temperature difference is small. Energy dissipation slow at low temperature so need well insulated house kept at constant temperature
-- Air Source (ASHP) will work poorly in freezing temperature: currently not sufficient as stand alone
-- Ground Source Heat Pump (GSHP) needs to be implemented in new build homes.
+Typical efficiency η of 500%! Works best when temperature difference is small. Energy dissipation slow at low temperature so need well insulated house kept at constant temperature. Because of the stable ground temperature, the GSHP generally offer higher COP values, while ASHP will work poorly in freezing temperature.
+
+## thermo-electrical generator(TEG)
+the relation between efficiency and the figure of merit of a thermo-generator. Define each symbol. 
+![thermo-electrical generator](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/thermo-electric%20generator.png) <br>
+- Z: the figure of merit
+- T: the absolute temperature of the thermoelectric material(in kelvin)
+- 6: the electrical conducting of material
+- k: the thermal conductivity of the material
+- a: a=dV/dT the thermopower seebeck coefficient, which measures the megnitude of the voltage generated when a temperature gradient is applied across the material
+
+![efficiency](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/efficiency.png) <br>
+
+When ZT is increased, the efficiency of the TEG is enhanced, allowing for higher conversion efficiency of heat into electrical power. Because higher ZT implies a better balance between 6, a, and k,leading to improvment of the thermoelectric performance.
+
 
 ## MPPT
 Describe the technique known as Maximum Power Point Tracking (MPPT). 
@@ -51,7 +71,16 @@ across the device is zero
 the product of short circuit current and open circuit
 voltage
 
+Draw the typical IV curve of a solar cell under illumination. Indicate the three key features. <br>
+[21/22][3'] [17/18][3'] <br>
+
 Illustrate Voc, Isc and Pmax on a solar cell IV Curve.
+
+A photovoltaic PV cell has an open circuit voltage Voc of 18V and a short circuit current Isc of 7A. <br>
+(i) Draw a typical current-voltage curve of the cell and indicate the maximum power point. <br>
+(ii) Draw the corresponding power-voltage curve for power and indicate the maximum power point. <br>
+[15/16][12'] <br>
+
 ![MPPT](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/MPPT.jpeg)
 
 ## AGW(Anthropogenic Global Warming)
@@ -76,6 +105,9 @@ Energy Storage considerations
 - Cyclability
 ![Ragone plot](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/Ragone%20plot.png)
 
+Draw a diagram which shows the merits of fossil fuels, fuel cells, Pb-acid batteries, Li-ion batteries and capacitors in relation to these performance measures. <br>
+[15/16][4'] <br>
+
 ## spectral response
 Define what the spectral response of a silicon solar cell is under glass and provide the equation relating spectral response to quantum efficiency. <br>
 [18/19][6']
@@ -85,7 +117,9 @@ The ability of the battery to convert light energy of different wavelengths into
 
 ![SR](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/SR.png) <br>
 
-## PERC
+## carrier selective contact
+![selective contact](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/selective%20contact.png)
+a. PERC(Passivated Emitter and Rear Cell)
 Explain, with the help of a sketch, how the structure of the back contact of a PERC solar cell differs from that of an Al-BSF solar cell and give two reasons why it enables higher power conversion efficiencies. 
 [19/20][5']
 Structure Extra steps vs. BSF cell
@@ -95,6 +129,25 @@ Structure Extra steps vs. BSF cell
 why it enables higher power conversion efficiencies:
 - Less recombination at rear contact (most of the rear is covered with a passivating oxide).
 - A higher reflectance from the back surface dielectric stack compared to an Al-Si interface.
+
+cons:
+still some metal-silicon interface at which recombination can
+occur.
+local contacting has its downside:
+– More complex fabrication steps to create pattern at rear.
+– Base resistance must be low so high quality wafers needed for high PCEs.
+
+b. AI-BSF
+
+c. TOPcon(Tunnel Oxide Passivated Contact)
+- Adding a heavily- doped n+ layer of polysilicon between the oxide
+and the metal contact provided selectivity to electrons.
+
+The passivated contact is selective to electrons because:
+1. Heavily doped n+ poly-Si creates band bending to provide a barrier for holes while electrons can migrate easily to the
+oxide/silicon interface.
+2. The tunnel oxide presents a 4.5 eV barrier for holes relative to 3.1 eV for electrons
+3. No states on the other side of the oxide (n+ region) for holes to tunnel through because of the energy gap.
 
 【题目解读】
 - Passivated Emitter and Rear Cell
@@ -126,6 +179,11 @@ Direct methods directly measure the output power of the cell and adjust the oper
 a. Perturb and Observe Method: limited in rapidly changing illumination <br>
 b. Incremental Conduction Method: compare the incremental conductance (dI/dV) to the array conductance (I/V), has rapid response time to illumination variation <br>
 
+## P-N junction at thermal equilibrium
+Draw a diagram of a P-N junction at thermal equilibrium and label the most important features. explain the key changes with <br>
+[15/16][6']  [14/15][6'] <br>
+![pn juction equilibrium](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pn%20juction%20equilibrium.png) <br>
+
 ## degenerate doping
 Explain what is meant by degenerate doped N and Ptype materials. 
 [16/17][5'] <br>
@@ -141,13 +199,25 @@ Write down the ideal PV cell equation, stating the meaning of each variable used
 [21/22][3'] [17/18][3'] [16/17][3'] [15/16][3'] <br>
 ![PV cell equation](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pv%20cell%20ideal%20equation.png) <br>
 
-## BSFionised
+## BSF ionised
 Calculate the potential barrier height in electron volts if the percentage of Al acceptors that are ionised is 65%. 
 [21/22][3'] [19/20][2']
 ![bsf1](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSF1.png) <br>
 ![ionised](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/ionised.png) <br>
 
 ![bsf](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSF.png) <br>
+
+![bsf](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/bsf.png) <br>
+
+The wafer in (c) is made into an Al-BSF solar cell with a screen-printed aluminium back contact. During the process, the cell is heated to diffuse aluminium into silicon, creating a p+ layer at the rear of the cell with an acceptor concentration of Na+ = 3×1018cm-3. 
+Draw and label a band diagram of the p+/p junction formed at the rear of the cell and explain how this helps improve the performance of the solar cell. <br>
+![bsf level band](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/bsf%20level%20band.png) <br>
+[19/20][7'] <br>
+
+## thermo-electric generator
+Draw a diagram of a vertical thermo-electric generator, labelling all the parts, and indicating the direction of heat flow and current flow. <br>
+[16/17][8'] <br>
+![heater](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/heater.png)
 
  
 ## Albedo
@@ -177,6 +247,11 @@ Na+ = 2.7×1018 cm-3.
 Show that the potential barrier height, Δ𝐸𝐶, created in the conduction band across the p+/p junction, assuming all Al dopants are ionised, is given by: 
 ![delta Ec](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/delta%20Ec.png) <br>
 [21/22][7']
+
+## P-N junction
+Draw a band diagram of a P-N junction under forwardbias and label the most important features. <br>
+[16/17][6'] <br>
+![forward bias](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/forward%20bias.png) <br>
 
 
 ## feedback
@@ -212,7 +287,7 @@ two advantages and two disadvantages of using silicon as the material for the ac
 [19/20][4']
 To be a suitable material from which to make the active layer of solar
 cells, a semiconductor should ideally have the following properties:<br>
-– Band gap should be 1-1.6 eV. As for silicon, the band gap is 1.1eV. <br>
+- Band gap should be 1-1.6 eV. As for silicon, the band gap is 1.1eV. <br>
 – Need to be able to dope n and p type (to form a good junction) <br>
 – Low defect densities (long minority carrier diffusion lengths). 低缺陷密度（长少数载流子扩散长度）： 缺陷密度影响材料的载流子（电子和空穴）传输和寿命。<br>
 – Abundant on Earth<br>
@@ -222,6 +297,12 @@ shortcoming:<br>
 1. Limited spectral response range: The spectral response range of silicon solar cells is mainly concentrated in the visible light region, with low absorption capacity for infrared and ultraviolet light, and cannot fully utilize light energy other than visible light.<br>
 2. Thermalization loss: When a photon is absorbed by a silicon semiconductor, it generates an electron-hole pair. Some of these carriers may have too much energy that cannot be converted directly into electricity, but instead into heat through a process called thermalization. This loss of thermal energy reduces the overall efficiency of the solar cell.<br>
 【题目解读】"Active region of a solar cell" 是指太阳能电池的活性区域，也称为光吸收层或光电转换层，其主要功能是将光能转化为电能。这个区域的材料选择至关重要，因为它直接影响太阳能电池的光电转换效率。
+
+Explain why Material X may be a good candidate for use as the active region in a solar cell and an LED.  <br>
+[20/21][6'] <br>
+![active region](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/active%20region.png) <br>
+
+
 
 ## direct and indirect band gap semiconductors
 Explain the difference between direct and indirect band gap semiconductors in terms of absorption and emission of light, and give an example of one semiconductor of each type of band gap.
@@ -238,6 +319,11 @@ e.g. Si, Ge, GaP, AlP
 Transitions of electrons from VB to CB involve a change in energy and momentum. <br>
 absorption of light: Although the energy of the photon may be higher than the bandgap energy, the electron cannot jump directly from the valence band to the conduction band due to the momentum mismatch.<br>
 emission of light: When electrons return from the conduction band to the valence band, due to the mismatch of momentum, additional scattering and momentum changes will occur, making the emission efficiency of photons lower.
+
+# PV cell circuit
+Draw the circuit diagram of the ideal and practical photovoltaic (PV) cell model. <br>
+[16/17][3'] [15/16][3'] <br>
+![pv cell circuit](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pv%20cell%20circuit.png) <br>
 
 
 ## Carbon
@@ -455,8 +541,13 @@ Energy density = 100Wh/kg <br>
 - Na: acceptor concentration
 - Ec: energy at the bottum of conduction band
 - Ev: energy at the top of valence band
+- El: 电子的束缚能级（英文缩写：Energy level），它是电子在原子或分子中被束缚时的能量状态。
+- Ex: 激发态能级（英文缩写：Excited state energy level），它是原子或分子中的电子在受到外部能量激发后跃迁到的能量状态。
+- Eso: 自旋-轨道耦合能级（英文缩写：Spin-Orbit Coupling energy level），它是电子的自旋和轨道运动之间相互耦合产生的能量状态。
 
 # Words
+- condenser 冷凝器
+- antifreeze 防冻液 
 - 掺杂半导体是有意地掺入杂质原子以增加载流子浓度的半导体材料。
 - dopant 掺杂剂
 - n型 More donors 半导体是指以磷（P）、砷（As）或锑（Sb）作为杂质进行掺杂的本征半导体；P型 More acceptors半导体比如硼、铟、镓等的半导体就是
@@ -486,9 +577,17 @@ boron 硼 - 硼是施主：硼是三价元素，只有三个价电子。当掺�
 - prescribe 规定
 
 # Common Sense
+- Solar cell & photovoltaic cell: 同一个概念，通常用来指代太阳能电池。
+
+太阳能电池是一种能够将太阳光直接转换成电能的装置，它通过光电效应产生电流，从而将光能转换为电能。太阳能电池通常由半导体材料制成，当光线照射到太阳能电池的表面时，光子的能量被吸收，从而产生电子-空穴对，这些电子-空穴对会形成电流。
+
+因为太阳能电池是基于光电效应工作的，所以它也被称为"photovoltaic cell"，其中"photo"表示光的意思，"voltaic"表示电的意思，因此"photovoltaic cell"意味着直接将光转换为电能的装置。
+- 光伏电池效率：电子更容易进入硅材料，形成电流。空穴更难进入介电材料，最大程度地减少载流子的复合损失，并提高太阳能电池的效率。
+- 低缺陷密度是指材料中缺陷（如晶格缺陷、杂质、陷阱等）的数量较少，这意味着少数载流子（空穴或电子）在材料中扩散时不太容易受到障碍，因为缺陷会限制载流子的移动。在半导体器件中，较低的缺陷密度可以帮助提高载流子的寿命和扩散长度，从而增强器件的性能和效率。
 - 本征费米能级（𝐸𝑖）是指在纯净半导体中（没有有意添加杂质的情况下），导带中的电子浓度和价带中的空穴浓度相等的能量水平。
 - 能隙中心是导带最小值（CBM）和价带最大值（VBM）之间的中点。
-- 能带又可以分为价带和导带。带隙能量（Eg）是指价带和导带之间的能量差，即电子在价带中的最高能级与导带中的最低能级之间的能量间隔。
+- 能带又可以分为价带和导带。带隙能量（Eg）是指价带和导带之间的能量差，即电子在价带中的最高能级与导带中的最低能级之间的能量间隔。价带是离子束缚电子的能带，其中电子能量较低，通常处于较稳定的状态。导带是电子能量较高且能够自由移动的能带。当电子从价带跃迁到导带时，它们能够在材料中自由移动并参与电导。
+带隙（band gap）是价带和导带之间的能量间隔，也称为禁带宽度。在带隙中，材料的电子处于不允许的能量状态，无法自由传导。
 - When holes and electrons meet and recombine, their energy is lost as heat instead of being converted into electricity.
 - Doping impurity atoms are typically classified into two categories: donors and acceptors.
   - In N-type silicon, the donor is the doping impurities. The additional electrons from the donor atoms easily dissociate and become free electrons in the conduction band, thereby increasing the conductivity of N-type silicon. On the other hand, acceptor atoms are impurities that can capture free electrons and can be considered as positively charged carriers, thereby increasing the conductivity of the doped region.
