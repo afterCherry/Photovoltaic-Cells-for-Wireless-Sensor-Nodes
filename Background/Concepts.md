@@ -11,6 +11,8 @@ According to the laws of defined formula, an object at a certain temperature emi
 - equilibrium temperature of the earth  <br>
 Equilibrium temperature happens between incoming solar radiation and outgoing earth radiation. Incoming Energy in Visible/UltraViolet(UV), Outgoing Energy in Infra-Red(IR). Incoming absorbed radiation on Planet depends on distance to the sun and radius of the planet, outgoing radiation of the planet only depends on its temperature.
 Planet Earch will heat up until equilibrium is achieved. The resulting equation for equilibrium temperature does not depend on the size of planet.
+![equilibrium temperature](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/equilibrium%20temperature.png) <br>
+![equilibrium1](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/equilibrium1.png) <br>
 
 ### caused by Gas, explain examples and principles. 
 [22/23][6'] <br>
@@ -83,11 +85,13 @@ A photovoltaic PV cell has an open circuit voltage Voc of 18V and a short circui
 
 ![MPPT](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/MPPT.jpeg)
 
+本来current是在x轴下面的，现在沿x轴对称过来了
+
 ## AGW(Anthropogenic Global Warming)
-the mechanism by which burning of fossil fuels leads to anthropogenic global warming. 
-[19/20][12'] [18/19][12'] [17/18][12'] [16/17][7']
+the mechanism by which burning of fossil fuels leads to anthropogenic global warming. <br>
+[19/20][12'] [18/19][12'] [17/18][12'] [16/17][7'] <br>
 Evidences of AGW are Co2 emission, temperature increase and feedback.
-When fossil fuels are burned, the greenhouse gases such as CO2, H2O will accumulate in the Earth's atmosphere. The gases will absorb the IR emitted from the earth's surface and reemit to the earth's surface, which leading to the imbalance between incoming and outgoing energy of the earth and increasing temperature. The increased temperature will melt the glaciers and rise sea levels, which reduces the Earth's reflective capacity and increases the absorbtion that creates vicious cycle.
+When fossil fuels are burned, the greenhouse gases such as CO2, H2O, CH4, N2O will accumulate in the Earth's atmosphere. The gases will absorb the IR emitted from the earth's surface and reemit to the earth's surface, which leading to the imbalance between incoming and outgoing energy of the earth and increasing temperature. The increased temperature will melt the glaciers and rise sea levels, which reduces the Earth's reflective capacity and increases the absorbtion that creates vicious cycle.
 
 ## Energy Storage
 Name the two key technical performance indicators of energy storage devices and draw a diagram in which at least 6 examples of energy storage devices are placed relative to these indicators ("Ragone chart"). <br>
@@ -126,18 +130,20 @@ Structure Extra steps vs. BSF cell
 1. Rear passivation with SiOx/AlOx and SiNy. 后端屏障层
 2. Laser contact opening at rear. 激光
 
-why it enables higher power conversion efficiencies:
+why it enables higher power conversion efficiencies: <br>
 - Less recombination at rear contact (most of the rear is covered with a passivating oxide).
 - A higher reflectance from the back surface dielectric stack compared to an Al-Si interface.
 
-cons:
-still some metal-silicon interface at which recombination can
-occur.
-local contacting has its downside:
-– More complex fabrication steps to create pattern at rear.
-– Base resistance must be low so high quality wafers needed for high PCEs.
+cons: <br>
+still some metal-silicon interface at which recombination can occur. <br>
+local contacting has its downside: <br>
+– More complex fabrication steps to create pattern at rear. <br>
+– Base resistance must be low so high quality wafers needed for high PCEs. <br>
 
 b. AI-BSF
+Back Surface Field created by extra heavy P type doping keeps electrons away from surface.<br>
+![multicrystalline BSF](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/multicrystalline%20BSF.png) <br>
+
 
 c. TOPcon(Tunnel Oxide Passivated Contact)
 - Adding a heavily- doped n+ layer of polysilicon between the oxide
@@ -184,6 +190,8 @@ Draw a diagram of a P-N junction at thermal equilibrium and label the most impor
 [15/16][6']  [14/15][6'] <br>
 ![pn juction equilibrium](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pn%20juction%20equilibrium.png) <br>
 
+![pn junction equilibrium](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pn%20junction%20equilibrium.png) <br>
+
 ## degenerate doping
 Explain what is meant by degenerate doped N and Ptype materials. 
 [16/17][5'] <br>
@@ -199,7 +207,7 @@ Write down the ideal PV cell equation, stating the meaning of each variable used
 [21/22][3'] [17/18][3'] [16/17][3'] [15/16][3'] <br>
 ![PV cell equation](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pv%20cell%20ideal%20equation.png) <br>
 
-## BSF ionised
+## AI-BSF ionised
 Calculate the potential barrier height in electron volts if the percentage of Al acceptors that are ionised is 65%. 
 [21/22][3'] [19/20][2']
 ![bsf1](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSF1.png) <br>
@@ -213,6 +221,14 @@ The wafer in (c) is made into an Al-BSF solar cell with a screen-printed alumini
 Draw and label a band diagram of the p+/p junction formed at the rear of the cell and explain how this helps improve the performance of the solar cell. <br>
 ![bsf level band](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/bsf%20level%20band.png) <br>
 [19/20][7'] <br>
+
+![bsf delta ec](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSF%20delta%20ec.jpeg) <br>
+
+
+The cell is heated to diffuse 扩散 aluminium from the back contact into sillicon.<br>
+- High doping concentration creates a potential gradient in conduction and valance band.
+- It can be seen that the nergy difference between Fermi level and valence band becomes smaller as moving into p+ region
+- It's smaller in the conduction band which produces barrier to the minority carriers, which reduces the recombination at the rear of cell.
 
 ## thermo-electric generator
 Draw a diagram of a vertical thermo-electric generator, labelling all the parts, and indicating the direction of heat flow and current flow. <br>
@@ -235,10 +251,11 @@ Explain why the law of mass action is true for extrinsic semiconductors. <br>
 
 In extrinsic semiconductors, intentionally added dopant atoms significantly increase the concentration of majority carriers (electrons in N-type semiconductors or holes in P-type semiconductors), resulting in a much higher concentration of majority carriers (n or p) compared to the concentration of minority carriers (p or n). <br>
 
-At thermal equilibrium, thermal excitation in the extrinsic semiconductor leads to the generation of electron-hole pairs. The rate of generation of these electron-hole pairs is equal to the rate of recombination of electron-hole pairs, meaning that the number of electron-hole pairs generated in a unit time is equal to the number of electron-hole pairs that recombine in the same unit time. <br>
+To maintain equilibrium, the decrease in hole concentration caused by the donor impurities is balanced by an increase in electron concentration. This maintains the product n*p proportional to ni^2, as described by the law of mass action.
+
 
 在外延半导体中，有意添加的掺杂原子显著增加了多数载流子的数量（N型半导体中的电子或P型半导体中的空穴），因此多数载流子的浓度（n或p）远远超过少数载流子（p或n）的浓度。<br>
-在热平衡状态下，外延半导体中的电子和空穴之间会发生热激发，从而产生电子-空穴对。这些电子-空穴对的生成速率等于电子-空穴对的复合速率，即在单位时间内产生的电子-空穴对数量等于在单位时间内复合的电子-空穴对数量。<br>
+
 
 
 ## potential barrier height
@@ -273,6 +290,7 @@ Feedback: The response of the earth to global warming <br>
 ## radiative forcing
 Explain the concept of radiative forcing. <br>
 [18/19][5']
+It refers to the response of climate system to an initial pertubation or change in one or more climate variables.It represents the amplification or dampening of the initial change.<br>
 Power of Radiation [W/m2] not escaping earth due to absorption by green house gasses
 If radiation already absorbed at that wavelength there is less additional forcing; depends on:<br>
 • Position of vibrational levels <br>
@@ -337,11 +355,12 @@ the definition of AM 0 and AM 1.5 radiation
 AM(Air Mass)
 - AM 0 represents the solar spectrum then the sunlight directly perpendicularly reaches to the Earth's surface without attenuation through the atmosphere.
 - AM 1.5 represents the solar radiation spectrum after passing through an average atmosphere with a path length of 1.5 air masses.
+![air mass](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/air%20mass.png) <br>
 
 ## tilt angle
 If a solar array is to be mounted on a roof located at a latitude of 35 degrees. What angle would you tilt the array to obtain the best output averaged over the whole year? 
 [19/20][3']
-Assume in northern hemispere
+Assume in northern hemispere <br>
 35+15=50(winter) <br>
 35-15=20(summer) <br>
 
@@ -349,6 +368,8 @@ A solar array is to be mounted on a roof located at a latitude of 50 degrees. Ca
 [21/22][3'] <br>
 50+15=65(winter) <br>
 50-15=35(summer) <br>
+
+fixed tile: low cost, convenient installation, low maintenance overhead 开销
 
 ## masses of electrons and holes
 In a piece of intrinsic silicon, the effective masses of electrons and holes are approximately 1.08𝑚𝑒 and 0.6𝑚𝑒, respectively, where 𝑚𝑒 is electron rest mass. Calculate the energy difference between the intrinsic Fermi level, 𝐸𝑖, and the centre of the bandgap. 
@@ -434,8 +455,8 @@ H2燃料电池动力车：在运行过程中不产生直接的CO2排放。唯一
 H2燃烧发动机：在运行过程中也不产生直接的CO2排放。然而，如果H2来自化石燃料，比如天然气，可能会与生产过程相关的CO2排放。
 
 # Calculation and Draw
-## Fermi energy level
-- Calculate the Fermi energy level at room temperature(300K) for N-type Silicon doped to a concentration of Nd=10^15 cm-3, with respect to the conduction band energy level. <br>
+## Fermi energy level with respect to ...
+Calculate the Fermi energy level at room temperature(300K) for N-type Silicon doped to a concentration of Nd=10^15 cm-3, with respect to the conduction band energy level. <br>
 [3'] <br>
 with respect to the intrinsic Fermi energy level. [15/16][3'] <br>
 [2'] <br>
@@ -443,10 +464,14 @@ Draw an energy level diagram illustrating previous 2 answers in relation
 to valence and conduction band energy levels.<br>
 [2'] <br>
 ![fermi_level](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/fermi_level.jpeg)
+
+## conductivity
 - a) What is the conductivity of intrinsic silicon at 300K given the following? <br>
   𝜇𝑒 = 1450 cm2/Vs 𝜇ℎ = 490 cm2/Vs
 [3']
 ![conductivity](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/conductivity.jpeg)
+
+## electron and hole concentrations
 b) An n-type Si semiconductor containing 1016 cm-3 of arsenic atoms is
 doped with 1017 cm-3 of boron atoms. <br>
 i. What are the electron and hole concentrations? <br>
@@ -454,7 +479,8 @@ ii. What is the conductivity? <br>
 [6']
 ![concentration and conductivity](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/concentration%20%26%20conductivity.jpeg)
 
-- A P-type silicon wafer has an acceptor concentration Na= 2×1016 cm-3. The wafer is made into an Al-BSF solar cell. During the process, the cell is heated to diffuse aluminium from the back contact into silicon, creating a p+ layer at the rear of the cell with an acceptor concentration of Na+ = 4×1018 cm-3.<br>
+## Al-BSF: band diagram & potential barrier height 
+A P-type silicon wafer has an acceptor concentration Na= 2×1016 cm-3. The wafer is made into an Al-BSF solar cell. During the process, the cell is heated to diffuse aluminium from the back contact into silicon, creating a p+ layer at the rear of the cell with an acceptor concentration of Na+ = 4×1018 cm-3.<br>
 a) Draw and label a band diagram for the rear of the cell and explain how
 the BSF helps improve the performance of the solar cell.[7'] <br>
 [7'] <br>
@@ -464,9 +490,19 @@ The band structure on the back surface that obstruct the movement of minority ca
 b) Calculate the potential barrier height, stating any assumptions you have made.<br>
 [5'] <br>
 
+- Bifacial modules usually have a glass front and rear to allow light in from both sides.
+- The amount of light reaching the rear depends on two main factors:
+1. The albedo of the surface underneath the module.
+2. Height of the installation above the ground
+
+## TOPCon: band diagram
 c) Draw and label a band diagram for the rear of a TOPCon cell and explain
 how it minimises rear surface recombination beyond what can be achieved with the BSF approach <br>
 [10'] <br>
+- n type
+![n type](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/n%20topcon.png) <br>
+- p type
+![p type](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/p%20topcon.jpeg) <br>
 
 1. Heavily doped n+ polisillicon creates band bending to provide a barrier for holes while electrons can migrate easily to the oxide/sillicon interface <br>
 2. The tunnel oxide presents a 4.5eV barrier for holes relative to 3.1 eV for electrons <br>
@@ -475,13 +511,15 @@ The 3 features keep  holes away from metal surface, which can help to reduce the
 ![BSF and TOPCon](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/BSP%20and%20TOPCon.jpeg)
 
 
+# BSF: power generated & power loss
 - (a) Derive an expression for the power generated, Pgen, in an area of a BSF solar cell between two metal contact fingers of length b, spaced a distance S apart when operated at the maximum power point with a voltage VMP and current density JMP. <br>
 [4'] <br>
 
-(b)The power lost due to current flow in the emitter in this area is given by...where 𝑅sheet is the emitter sheet resistance. For a solar cell with 𝑅sheet =35 Ω⁄sq, JMP = 30 mA/cm2 and VMP = 0.48 V, calculate the maximum finger spacing if the fractional power loss (Ploss/Pgen) is to be less than 3%. <br>
+(b)The power loss due to current flow in the emitter in this area is given by...where 𝑅sheet is the emitter sheet resistance. For a solar cell with 𝑅sheet =35 Ω⁄sq, JMP = 30 mA/cm2 and VMP = 0.48 V, calculate the maximum finger spacing if the fractional power loss (Ploss/Pgen) is to be less than 3%. <br>
 [4'] <br>
 ![power loss](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20loss.jpeg)
 
+## bifacial solar cell: power conversion efficiencies & bifaciality factor & equivalent efficiency & bificial gain 
 - A bifacial solar cell is measured under AM1.5 illumination with a total intensity of 1 kWm-2 from the front and rear and is found to have the following properties:
 ![fill factor](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/FF.png)
 Calculate:<br>
@@ -489,8 +527,18 @@ Calculate:<br>
 (ii) The bifaciality factor. <br>
 (iii) The equivalent efficiency assuming illumination of 1 kWm-2 on the front and 0.1 kWm-2 on the rear. <br>
 [9'] <br>
-![front and rear illumination](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/front%20and%20rear%20illumination.jpeg)
+![front and rear illumination](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/front%20and%20rear%20illumination.jpeg) <br>
 
+It is the inherent capability of a PV module to capture the sunlight on both the front and back surfaces.<br>
+![bificial factor](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/bifacial%20factor.png) <br>
+
+
+Y means the specific energy yield. <br>
+Bificial gain refers to the increasement of energy out or performance improvement of a bificial system compared to a monofacial PV system. <br>
+![bificial gain](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/bifacial%20gain.png) <br>
+
+
+## LED: IQE & EQE & power conversion efficiency & light extraction efficiency & luminous flux & luminous efficiency
 - A 650 nm red AlGaInP LED has a nonradiative lifetime of 100 ns and a radiative lifetime of 25 ns. It is biased with a voltage of 2 V and a current of 20 mA flows through the device. The emitted optical power is 7.5 mW. <br>
 ![efficiency over wavelength](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/efficiency%20over%20wavelength.png)
 (a) Calculate:<br>
@@ -501,10 +549,23 @@ iv. The light extraction efficiency. <br>
 [9'] <br>
 (b) Using the graph opposite, estimate: <br>
 i. The luminous flux <br>
-ii. The luminous efficacy <br>
+ii. The luminous efficiency <br>
 [5'] <br>
 ![QE](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/QE.jpeg)
+IQE也可以=(P0(internal)/Eph)/(I/q)
+## batteries and capacitors: energy
+- The energy stored in both batteries and capacitors is directly related to stored charge.
+Calculate the maximum theoretical specific energy for a Li-ion battery with Co electrode,given the redox potential Vred=3.6V, and atomic masses mCo=59, and mLi=7.
+[17/18][6']
+![battery energy](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/battery%20energy1.png) <br>
 
+![calculate BE](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/calculate%20BE.jpeg) <br>
+
+![capacitor storage](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/capacitor%20energy.png) <br>
+
+![capacitor discharge](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/capacitor%20discharge.png) <br>
+
+![E photo](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/Ephoto.png) <br>
 
 - Calculate the difference in energy, in electron volts, between the Fermi level and the top of the valence band at room temperature (300K), stating any assumptions you make and illustrating your answer with an energy level diagram. 
 [21/22][7'] [19/20][3']
@@ -528,6 +589,98 @@ Energy density = 100Wh/kg <br>
 [16/17][8'] [15/16][8'] <br>
 ![capacitor energy density](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/capacitor%20energy%20density.png) <br>
 
+# Supplementary content for examination
+## Types of Solar Insolation
+- Direct Nominal Irradiance (DNI): Radiation received per unit area by a surface that is held
+perpendicular to (or normal to) the direction of the sun at a given time in space
+- Diffuse Horizontal Irradiance (DHI): Radiation received per unit area by a surface (not subject to any
+shade) that does not arrive on a direct path from the sun but has been scattered by molecules and
+particles in the atmosphere
+- Global Horizontal Irradiance (GHI): The total amount of radiation received from above by a surface
+horizontal to the ground
+
+## measure
+- DHI: Pyranometers are used, alongside a shadow ball that blocks the direct sunlight.
+- DNI: mounted on a solar tracker
+- GHI: pyranometer placed horizontally, facing the Sky.
+- Global Tilted Irradiance (GTI): pyranometer is tilted
+- diffuse reflection from the surface of the earth: pyranometer is facing downwards instead of towards the sky
+
+## Pyranometer
+How a Pyranometer works? <br>
+- A pyranometer operates by measuring the temperature difference between a clear surface
+and a dark surface based on the Seebeck effect or thermoelectric effect
+- The black coating of the thermopile sensor absorbs solar radiation; in contrast, the clear
+surface reflects it.
+- Solar radiation heats up the sensor and increases the electric current it produces, so the
+more sunlight there is, the hotter the sensor becomes
+
+## Pyrheliometer
+How a Pyrheliometer works?
+- Through a window, sunlight enters the instrument and is directed at a thermopile, which
+transforms heat into an electrical signal due to the Seebeck Effect.
+- The signal voltage is then converted to watts per square meter with the help of a formula.
+- The Seebeck effect occurs when the temperature differential of dissimilar electrical conductors or
+semiconductors generates a voltage difference between them.
+
+## Energy Storage
+![energy storage](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/energy%20storage.png) <br>
+- Mechanical Flywheels
+![mechenical flywheels](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/mechenical%20flywheels.png) <br>
+- thermal energy storage
+![thermal energy storage](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/thermal%20energy%20storage.png) <br>
+- chemical energy storage
+![chemical energy storage](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/chemical%20energy%20storage.png) <br>
+- battery acid, Ni-MH, li-ion
+![acid](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/battery%20acid.png) <br>
+![Ni-MH](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/battery%20Ni-MH.png) <br>
+![li-ion](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/battery%20li-ion.png) <br>
+
+## battery considerations
+![battery consideration](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/battery%20consideration.png) <br>
+
+## sustainibility
+- environmental: resource depletion/emission/generated
+- economics: affordable, low cost
+- social impacts
+
+## Energy harvest 
+Application: <br>
+- Wireless Sensor Network
+- Magnetic induction energy transfer
+- Magnetic induction through repetitive motion
+- RFID: Radio Frequency IDentification
+
+## QE
+- EQE IQE
+![QE](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/eqe%20iqe.png) <br>
+![power wavelength](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20wavelength.png) <br>
+![reflectance](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/reflectance.png) <br>
+![qe on different wavelength](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/qe%20on%20different%20wavelength.png) <br>
+
+
+## GAS window layer
+A larger band gap window layer is often added to reduce front surface recombination:
+– Potential barrier reflects minority carriers (electrons), preventing them reaching the front surface (similar to the BSF for silicon solar cells).
+– Window layer is transparent to light due to larger bandgap.
+
+## pv cell
+- components of pv cell
+![components of pv cell](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/components%20of%20pv%20cell.png) <br>
+- floating PV
+![pros](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/floating%20PV%20pros.png) <br>
+![cons](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/floating%20PV%20cons.png) <br>
+
+## recombination
+![recombination](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/recombination.png) <br>
+
+## arcs
+![arcs](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/arcs.png) <br>
+
+## metal orbits
+![orbits](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/metal%20orbits.png) <br>
+
+
 
 
 # Symbol
@@ -546,6 +699,8 @@ Energy density = 100Wh/kg <br>
 - Eso: 自旋-轨道耦合能级（英文缩写：Spin-Orbit Coupling energy level），它是电子的自旋和轨道运动之间相互耦合产生的能量状态。
 
 # Words
+- pyrheliometer 直射辐射表
+- pyranometer 总辐射表 
 - condenser 冷凝器
 - antifreeze 防冻液 
 - 掺杂半导体是有意地掺入杂质原子以增加载流子浓度的半导体材料。
