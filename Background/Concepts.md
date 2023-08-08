@@ -680,6 +680,63 @@ A larger band gap window layer is often added to reduce front surface recombinat
 ## metal orbits
 ![orbits](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/metal%20orbits.png) <br>
 
+## Bifacial Trackers
+Applications of Bifacial Trackers <br>
+– Agrivoltaics
+
+## origin of energy
+![origin of energy](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/origin%20of%20energy.png) <br>
+
+## hydron electricity
+![hydron electricity](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/hydron%20electricity.png) <br>
+
+## wind energy
+![wind energy](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/wind%20energy.png) <br>
+
+## how to reduce co2
+![how to reduce co2](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/how%20to%20reduce%20co2.png) <br>
+- carbon tax
+
+## solar inverter characristics
+![solar inverter characristics](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/solar%20inverter%20characteristics.png) <br>
+
+## power loss
+![power loss](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20loss.png) <br>
+
+## power fractional loss
+![power fractional loss](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20fractional%20loss.png) <br>
+
+## degradation
+![degradation](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/degradation.png) <br>
+
+## combat LID
+![combat LID](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/combat%20LID.png) <br>
+
+## avoid pid
+![avoid pid](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/avoid%20pid.png) <br>
+
+## lcoe
+![lcoe](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/lcoe.png) <br>
+
+## effect of agw
+![effect of agw](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/effect%20of%20agw.png) <br>
+
+## thermoelectric power
+![thermoelectric power](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/thermoelectric%20power.png) <br>
+![thermoelectric power](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/thermoelctric%20power1.png) <br>
+
+
+## thermoelctric efficiency
+![thermoelctric efficiency](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/thermoelectric%20efficiency.png) <br>
+![thermoelctric efficiency](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/thermoelectric%20efficiency1.png) <br>
+
+## renewable energy
+![renewable energy](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/renewable%20energy.png) <br>
+
+## solar thermal
+![solar thermal](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/solar%20thermal.png) <br>
+
+
 
 
 
