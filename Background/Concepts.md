@@ -228,7 +228,7 @@ Draw and label a band diagram of the p+/p junction formed at the rear of the cel
 The cell is heated to diffuse 扩散 aluminium from the back contact into sillicon.<br>
 - High doping concentration creates a potential gradient in conduction and valance band.
 - It can be seen that the nergy difference between Fermi level and valence band becomes smaller as moving into p+ region
-- It's smaller in the conduction band which produces barrier to the minority carriers, which reduces the recombination at the rear of cell.
+- It's smaller in the conduction band which produces barrier to the minority carriers. The band structure on the back surface that obstruct the movement of minority carriers, such as electrons, towards the region connected to the metal contace, which reduces the recombination at the rear of cell and improve the efficiency of the solar cell.
 
 ## thermo-electric generator
 Draw a diagram of a vertical thermo-electric generator, labelling all the parts, and indicating the direction of heat flow and current flow. <br>
@@ -484,8 +484,7 @@ A P-type silicon wafer has an acceptor concentration Na= 2×1016 cm-3. The wafer
 a) Draw and label a band diagram for the rear of the cell and explain how
 the BSF helps improve the performance of the solar cell.[7'] <br>
 [7'] <br>
-High doping concentration creates a potential gradient in valence and conduction band, which can be seen that the energy difference between fermi level and valence band becomes smalleras moving to p+ region. It's similar in the conduction band which produces barrier to the minority carriers.
-The band structure on the back surface that obstruct the movement of minority carriers, such as electrons, towards the region connected to the metal contace. The goal is to prenvent minority carriers from recombining with holes at the back surface by guiding the minority carriers towards the juction, which can help to reduce the likelihood of recombination losses, thereby improving the efficiency of the solar cell. <br>
+
 
 b) Calculate the potential barrier height, stating any assumptions you have made.<br>
 [5'] <br>
