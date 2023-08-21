@@ -82,6 +82,11 @@ Describe the key factors to consider when optimising the design of a H-SAT track
 Albedo, pitch, tile angle, clearance height
 
 ## IV Curve
+Draw the typical IV curve of a solar cell under illumination. Indicate the three key features. <br>
+[21/22][3'] [17/18][3'] <br>
+
+Illustrate Voc, Isc and Pmax on a solar cell IV Curve.
+
 Define Voc, Isc, Pmax, FF, μPV
 - Voc: Open Circuit Voltage. the maximum voltage from a solar panel and occurs when the current is set at zero
 - Isc: Short Circuit Current. the maximum current from a solar panel and occurs when the potential difference
@@ -91,13 +96,9 @@ across the device is zero
 the product of short circuit current and open circuit
 voltage
 
-![MPP](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/MPP.png) <br>
-![IV curve](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/IV%20curve.png) <br>
+![IV curve](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/IV%20curve%20auth.jpg) <br>
 
-Draw the typical IV curve of a solar cell under illumination. Indicate the three key features. <br>
-[21/22][3'] [17/18][3'] <br>
 
-Illustrate Voc, Isc and Pmax on a solar cell IV Curve.
 
 A photovoltaic PV cell has an open circuit voltage Voc of 18V and a short circuit current Isc of 7A. <br>
 (i) Draw a typical current-voltage curve of the cell and indicate the maximum power point. <br>
