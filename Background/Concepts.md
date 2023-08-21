@@ -1,7 +1,25 @@
 - Calculator
 - Tough time to answer the questions
 
-# Concepts
+# must
+## sustainibility
+![sustainablity](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/sustainability.png) <br>
+
+## heterojunction LED band diagram
+![heterojunction LED band diagram](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/hetorojunction%20led.png) <br>
+
+## radiative forcing
+![radiative forcing](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/radiative%20forcing.png) <br>
+
+## bottlenect meterial
+![bottlneck materials](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/bottleneck%20material.jpg) <br>
+
+## degradation
+![pv encapsulation](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/degradation.png) <br>
+![pid](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/pid.png) <br>
+![LID LeTID](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/LID%20LeTID.png) <br>
+
+# Past years
 ## GreenHouse Effect 
 ### in terms of black body radiation and the equilibrium temperature of the earth. 
 [21/22][6']  [20/21][6'] [19/20][6']  [18/19][6'] [17/18][6']  [16/17][6']
@@ -72,6 +90,9 @@ across the device is zero
 - FF: Fill factor. A ratio of the maximum obtainable power to
 the product of short circuit current and open circuit
 voltage
+
+![MPP](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/MPP.png) <br>
+![IV curve](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/IV%20curve.png) <br>
 
 Draw the typical IV curve of a solar cell under illumination. Indicate the three key features. <br>
 [21/22][3'] [17/18][3'] <br>
@@ -336,8 +357,9 @@ emission of light: When an electron returns from the conduction band to the vale
 e.g. Si, Ge, GaP, AlP
 Transitions of electrons from VB to CB involve a change in energy and momentum. <br>
 absorption of light: Although the energy of the photon may be higher than the bandgap energy, the electron cannot jump directly from the valence band to the conduction band due to the momentum mismatch.<br>
-emission of light: When electrons return from the conduction band to the valence band, due to the mismatch of momentum, additional scattering and momentum changes will occur, making the emission efficiency of photons lower.
+emission of light: When electrons return from the conduction band to the valence band, due to the mismatch of momentum, additional scattering and momentum changes will occur, making the emission efficiency of photons lower.<br>
 
+![band gap diagram](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/band%20gap%20diagram.png) <br>
 # PV cell circuit
 Draw the circuit diagram of the ideal and practical photovoltaic (PV) cell model. <br>
 [16/17][3'] [15/16][3'] <br>
@@ -518,6 +540,9 @@ The 3 features keep  holes away from metal surface, which can help to reduce the
 [4'] <br>
 ![power loss](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20loss.jpeg)
 
+![power loss1](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20loss1.png) <br>
+![power loss2](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/power%20loss2.png) <br>
+
 ## bifacial solar cell: power conversion efficiencies & bifaciality factor & equivalent efficiency & bificial gain 
 - A bifacial solar cell is measured under AM1.5 illumination with a total intensity of 1 kWm-2 from the front and rear and is found to have the following properties:
 ![fill factor](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/FF.png)
@@ -638,10 +663,7 @@ semiconductors generates a voltage difference between them.
 ## battery considerations
 ![battery consideration](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/battery%20consideration.png) <br>
 
-## sustainibility
-- environmental: resource depletion/emission/generated
-- economics: affordable, low cost
-- social impacts
+
 
 ## Energy harvest 
 Application: <br>
