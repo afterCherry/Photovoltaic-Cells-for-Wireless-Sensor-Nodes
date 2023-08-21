@@ -20,6 +20,10 @@
 ![LID LeTID](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/LID%20LeTID.png) <br>
 
 # Past years
+## mass of law - doping concentration
+![doping](https://github.com/afterCherry/Photovoltaic-Cells-for-Wireless-Sensor-Nodes/blob/main/Background/Images/doping.png) <br>
+
+
 ## GreenHouse Effect 
 ### in terms of black body radiation and the equilibrium temperature of the earth. 
 [21/22][6']  [20/21][6'] [19/20][6']  [18/19][6'] [17/18][6']  [16/17][6']
