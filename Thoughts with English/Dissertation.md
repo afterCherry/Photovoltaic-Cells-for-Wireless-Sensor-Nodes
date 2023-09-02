@@ -1,3 +1,7 @@
+# CS
+DAC用于产生模拟电压信号，该信号通常在0到某个最大值之间变化。这个模拟电压信号被用来控制NFET的栅极电压（Vc），从而控制NFET的导通状态。<br>
+
+
 # measure photovoltaic cell voltage and current curve
 |  Paper   | Cite  |
 |  ----  | ----  |
