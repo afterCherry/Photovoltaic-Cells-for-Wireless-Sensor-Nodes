@@ -100,6 +100,71 @@ Current: 0.00039310 <br>
 
 
 # System
+```
+#include <esp32-hal-adc.h>
+#include <driver/dac.h>
 
+#define ADC_UP_PIN   34 
+#define ADC_DOWN_PIN 35
+#define DAC_PIN 25
+#define NFET_PIN 26
+#define NUM_POINTS 100    // 采样点数量
+
+
+float resistance = 2200;
+
+
+void setup() {
+  analogReadResolution(12); // 设置ADC分辨率为12位
+  pinMode(DAC_PIN, INPUT);
+  pinMode(NFET_PIN, OUTPUT);
+  pinMode(ADC_UP_PIN, INPUT);
+  pinMode(ADC_DOWN_PIN, INPUT);
+  Serial.begin(115200);
+  // 初始化串口
+  Serial.println("Starting measurement...");
+
+}
+
+void loop() {
+  float dac_value;
+  float current_values[NUM_POINTS];
+  float voltage_values[NUM_POINTS];
+
+ 
+  for (int i = 255; i > 0; i--) {
+    // dac_value = map(i, 0, NUM_POINTS - 1, 0, 255); 
+    dacWrite(DAC_PIN, i); // 将DAC值写入DAC引脚
+    float dac_out = i * 3.3 / 255;
+    dacWrite(NFET_PIN, dac_out); 
+    delay(100);
+
+    float up_voltage = (float)analogRead(ADC_UP_PIN) * (3.3 / 4095); 
+    float down_voltage = (float)analogRead(ADC_DOWN_PIN) * (3.3 / 4095); 
+    float current =(up_voltage - down_voltage) / resistance; 
+
+
+    voltage_values[i] = up_voltage; 
+    current_values[i] = current;  
+    Serial.printf("%.8f %.8f %.8f %.8f %.8f\r\n", dac_out, dac_out - down_voltage, down_voltage, current, up_voltage, up_voltage - down_voltage); 
+
+
+  /*
+    Serial.print(" | DAC OUT: ");
+    Serial.print(dac_out);
+    Serial.print(" | Voltage: ");
+    Serial.println(up_voltage, 5);
+    Serial.print(" | Current: ");
+    Serial.print(current, 5);
+    */
+  }
+
+
+  delay(1000);  
+  Serial.println("Ending measurement...");
+}
+
+
+```
 
 
