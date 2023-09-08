@@ -105,13 +105,14 @@ Current: 0.00039310 <br>
 #include <driver/dac.h>
 
 #define ADC_UP_PIN   34 
-#define ADC_DOWN_PIN 35
+#define ADC_DOWN_PIN 35 
 #define DAC_PIN 25
 #define NFET_PIN 26
-#define NUM_POINTS 100    // 采样点数量
+#define NUM_POINTS 255
 
-
-float resistance = 2200;
+float resistance = 5;
+float current_values[NUM_POINTS];
+float voltage_values[NUM_POINTS];
 
 
 void setup() {
@@ -121,47 +122,50 @@ void setup() {
   pinMode(ADC_UP_PIN, INPUT);
   pinMode(ADC_DOWN_PIN, INPUT);
   Serial.begin(115200);
-  // 初始化串口
-  Serial.println("Starting measurement...");
 
 }
 
 void loop() {
-  float dac_value;
-  float current_values[NUM_POINTS];
-  float voltage_values[NUM_POINTS];
+  Serial.printf("- - - - - - - \r\n");
+  Serial.println("Starting measurement...\r\n");
 
- 
-  for (int i = 255; i > 0; i--) {
-    // dac_value = map(i, 0, NUM_POINTS - 1, 0, 255); 
-    dacWrite(DAC_PIN, i); // 将DAC值写入DAC引脚
-    float dac_out = i * 3.3 / 255;
+  int index=0;
+  for (int i = 105;i < NUM_POINTS; i = i + 10){    
+    float dac_in = i;
+    dacWrite(DAC_PIN, dac_in); 
+    float dac_out = dac_in * (3.3/ 255);
     dacWrite(NFET_PIN, dac_out); 
     delay(100);
 
     float up_voltage = (float)analogRead(ADC_UP_PIN) * (3.3 / 4095); 
+    // Serial.printf("%.8f \r\n", up_voltage);
     float down_voltage = (float)analogRead(ADC_DOWN_PIN) * (3.3 / 4095); 
-    float current =(up_voltage - down_voltage) / resistance; 
-
-
-    voltage_values[i] = up_voltage; 
-    current_values[i] = current;  
-    Serial.printf("%.8f %.8f %.8f %.8f %.8f\r\n", dac_out, dac_out - down_voltage, down_voltage, current, up_voltage, up_voltage - down_voltage); 
-
-
-  /*
-    Serial.print(" | DAC OUT: ");
-    Serial.print(dac_out);
-    Serial.print(" | Voltage: ");
-    Serial.println(up_voltage, 5);
-    Serial.print(" | Current: ");
-    Serial.print(current, 5);
-    */
+    float current = (down_voltage - up_voltage) / resistance; 
+    if(current < 0){
+      current = -current;
+    }
+    // Serial.printf("%.8f \r\n", current);
+    voltage_values[index] = up_voltage;
+    current_values[index] = current;
+    index = index +1;
+    if(index == (NUM_POINTS - 105) / 10){
+      index = 0;
+    }
   }
 
+  for(int i=0; i< 10; i++){
+    Serial.printf("%.8f \r\n", voltage_values[i]);
+  }
+
+  Serial.printf("* * * * * * * *\r\n");
+
+  for(int i=0; i< 10; i++){
+    Serial.printf("%.8f \r\n", current_values[i]);
+  }
 
   delay(1000);  
   Serial.println("Ending measurement...");
+
 }
 
 
